@@ -1,0 +1,36 @@
+{{ define "index" .}}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="" />
+    <meta charset="utf-8">
+    <title>Заголовок документа</title>
+
+    <link rel="stylesheet" href="/static/style/main_style.css">
+    <link rel="stylesheet" href="/static/style/font/flaticon.css">
+
+    <script src="/static/js/js.js"></script>
+    <script src="/static/js/ready.js"></script>
+
+</head>
+<body >
+<div id="main_wrapper" class="white">
+    {{template "header" .}}
+    {{template "left_side" .}}
+
+
+    <div class="content_wrapper" id="main_contet">
+        {{ $value.сontent }}
+    </div>
+
+    {{template "right_side" .}}
+
+
+</div>
+</body>
+
+</html>
+{{end}}

@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "indexs": {
+      "blocks": [
+        "promo_block",
+        "main_block"
+      ],
+      "properties": {
+        "prop_1": "value",
+        "prop_n": "value"
+      }
+    },
+    "categories": {
+      "blocks": [
+        "block_1",
+        "block_2",
+        "block_n"
+      ],
+      "properties": {
+        "prop_1": "value",
+        "prop_n": "value"
+      }
+    },
+    "item": {
+      "blocks": [
+        "block_1",
+        "block_2",
+        "block_n"
+      ],
+      "properties": {
+        "prop_1": "value",
+        "prop_n": "value"
+      }
+    }
+  }
+}
